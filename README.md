@@ -28,4 +28,17 @@ Java: Version 17 or above.
 Maven: Build tool for the project.
 PostgreSQL: Version 17.
 
-
+API Endpoints
+User Management
+Register User: POST /api/users/register
+Login User: POST /api/users/login
+Account Management
+Create Account: POST /api/accounts
+Search Accounts: GET /api/accounts
+Query parameters: number, name
+Update Account: PUT /api/accounts/{id}
+Delete Account: DELETE /api/accounts/{id}
+View Account Details: GET /api/accounts/{id}
+Transaction Management
+Initiate Transfer: POST /api/transactions/transfer
+View Transaction History: GET /api/transactions/account/{accountId}
